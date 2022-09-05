@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Email:etc/email_templates.xsd">
+    <template id="i95dev_email_send_template" label=" Logged In" file="customer_log_in.html" type="html" module="I95Dev_EmailSend" area="frontend"/>
+</config>

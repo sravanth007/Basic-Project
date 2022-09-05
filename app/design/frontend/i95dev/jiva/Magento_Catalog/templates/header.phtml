@@ -1,0 +1,8 @@
+<p>Header</p>
+<?php
+$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+$conf = $objectManager
+    ->get('Magento\Framework\App\Config\ScopeConfigInterface')
+    ->getValue('i95dev/general/textarea_example');
+echo $conf;
+?>

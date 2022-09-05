@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+
+
+                <add id="Admin_Acl::menu" title="Admin ACL " module="Admin_Acl" sortOrder="10" resource="Magento_Backend::content"/>
+                <add id="Admin_Acl::create" title="Create" module="Admin_Acl" sortOrder="10" parent="Admin_Acl::menu" action="acl/create/index" resource="Admin_Acl::create"/>
+                <add id="Admin_Acl::delete" title="Delete" module="Admin_Acl" sortOrder="20" parent="Admin_Acl::menu" action="acl/delete/index" resource="Admin_Acl::delete"/>
+                <add id="Admin_Acl::view" title="View" module="Admin_Acl" sortOrder="30" parent="Admin_Acl::menu" action="acl/view/index" resource="Admin_Acl::view"/>
+            </menu>
+        </config>
